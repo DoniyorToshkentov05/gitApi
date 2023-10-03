@@ -2,21 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>GitHub Api</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link rel="stylesheet" href="./style.css" />
+    <title>GitHub User Finder</title>
   </head>
   <body>
- 
-    <div class="input-container">
-      <input placeholder="GitHub user kiriting" type="text" />
-    </div><br>
-    <div class="button"><button id="fetchdata">Qidirish</button></div>
-    <div id="result">
-      <img src="" alt="" />
-  
+    <div class="container">
+     <h1>GitHub Search User</h1>
+      <form action="" id="form">
+        <input
+          type="text" id="search" placeholder="GitHub User" />
+      </form>
+
+      <ul class="cards"></ul>
     </div>
+
+    <script src="main.js"></script>
   </body>
-  <script src="main.js"></script>
 </html>
